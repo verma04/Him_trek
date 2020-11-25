@@ -1,4 +1,4 @@
 module.exports = {
-  mongoURI: "YOUR_MONGO_URI_HERE",
+  mongoURI: "mongodb+srv://him123:him123@cluster0.msgg8.mongodb.net/HIMTREKSTAYS?retryWrites=true&w=majority",
   secretOrKey: "secret"
 };
