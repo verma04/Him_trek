@@ -3,7 +3,9 @@ import React, { Component } from "react";
 import Explore from './Explore/Expore'
 import  Upcomming from './Upcomming/Upcomming'
 import { Section }  from './Style'
-import Trips from './Trips/Trips'
+import Trips from './Trips/Trips';
+
+import List from './List/List'
 
 import Stories from './Stories/Stories'
 import Acc from './Accomo/acoomo'
@@ -51,7 +53,9 @@ you. Treat yourself and see our offers.
 
   
       </Section>
+      
       <Explore/>
+      <List/>
       {/* <Upcomming/> */}
 
       <Trips/>
