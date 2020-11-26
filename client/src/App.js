@@ -16,6 +16,9 @@ import Dashboard from "./components/dashboard/Dashboard";
 
 import "./App.css";
 
+import{ Reset } from './theme/reset'
+import GlobalFonts from './theme/theme';
+
 // Check for token to keep user logged in
 if (localStorage.jwtToken) {
   // Set auth token header auth
@@ -39,8 +42,12 @@ class App extends Component {
   render() {
     return (
       <Provider store={store}>
+        
         <Router>
+      
           <div className="App">
+          <GlobalFonts />
+          <Reset/>
             <Navbar />
             <Route exact path="/" component={Landing} />
             <Route exact path="/register" component={Register} />
