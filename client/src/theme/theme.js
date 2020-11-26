@@ -67,6 +67,18 @@ a {
 button {
   cursor: pointer;
 }
+
+button {
+            background-color: rgb(189 ,179 ,173);
+    width: 24rem;
+    height: 4rem;
+    border: none;
+    font-size: 2rem;
+    color: rgb(16,18,15);
+    font-weight: 1000;
+    font-family: Cour;
+    box-shadow: 10px 10px #888888;
+           }
  
 
   h1 {

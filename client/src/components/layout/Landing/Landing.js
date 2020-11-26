@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 
-
+import Explore from './Explore/Expore'
+import  Upcomming from './Upcomming/Upcomming'
 import { Section }  from './Style'
 
 class Landing extends Component {
   render() {
     return (
+      <React.Fragment>
       <Section>
 
         <div className='flex' >
@@ -45,6 +47,9 @@ you. Treat yourself and see our offers.
 
   
       </Section>
+      <Explore/>
+      <Upcomming/>
+      </React.Fragment>
     );
   }
 }

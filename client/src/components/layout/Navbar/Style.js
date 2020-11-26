@@ -4,8 +4,9 @@ import  { colors } from '../../../theme/color'
 
 export const Nav = styled.nav`
 display:flex;
+background-color:rgb( 249, 248, 246);
 justify-content:center;
-box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2), 0 1px 1px 0 rgba(0,0,0,0.19);
+box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 2px 2px 0 rgba(0,0,0,0.19);
 padding-bottom:1rem;
 @media  (max-width: 767px) {
 }
