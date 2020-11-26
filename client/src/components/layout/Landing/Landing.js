@@ -6,6 +6,7 @@ import { Section }  from './Style'
 import Trips from './Trips/Trips'
 
 import Stories from './Stories/Stories'
+import Acc from './Accomo/acoomo'
 
 class Landing extends Component {
   render() {
@@ -55,6 +56,7 @@ you. Treat yourself and see our offers.
 
       <Trips/>
       <Stories/>
+      <Acc/>
       </React.Fragment>
     );
   }
