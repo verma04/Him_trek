@@ -3,6 +3,9 @@ import React, { Component } from "react";
 import Explore from './Explore/Expore'
 import  Upcomming from './Upcomming/Upcomming'
 import { Section }  from './Style'
+import Trips from './Trips/Trips'
+
+import Stories from './Stories/Stories'
 
 class Landing extends Component {
   render() {
@@ -48,7 +51,10 @@ you. Treat yourself and see our offers.
   
       </Section>
       <Explore/>
-      <Upcomming/>
+      {/* <Upcomming/> */}
+
+      <Trips/>
+      <Stories/>
       </React.Fragment>
     );
   }

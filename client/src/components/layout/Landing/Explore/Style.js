@@ -7,6 +7,7 @@ display:flex;
 justify-content:center;
 background-color:white;
 padding-top:3rem;
+padding-bottom:3rem;
 @media  (max-width: 767px) {
 }
 @media (min-width: 768px) and (max-width: 1280px) {

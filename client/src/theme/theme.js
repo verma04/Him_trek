@@ -55,8 +55,9 @@ a {
   ul {
     list-style: none;
     li {
-    font-family:Comfortaa;
+    font-family:Cour;
     cursor: pointer;
+    color: ${colors.text.text1};
 
   }
   }

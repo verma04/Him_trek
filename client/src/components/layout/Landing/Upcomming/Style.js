@@ -13,7 +13,7 @@ margin-bottom:1rem;
 	   -moz-box-shadow: 0 1rem 6px -6px grey;
 	        box-shadow: 0 1rem 6px -6px grey;
           .img-1 {
-              /* background-color:white; */
+             background-color:white; 
             position: relative;
     .img-wrapper {
 
@@ -106,6 +106,20 @@ margin-bottom:1rem;
           }
           }
   }
+
+  .carousel .control-dots .dot {
+    transition: opacity .25s ease-in;
+    opacity: .3;
+    filter: alpha(opacity=30);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.9);
+    background: #fff;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 8px;
+}
 
   
   }
