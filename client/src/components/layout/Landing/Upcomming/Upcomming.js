@@ -15,8 +15,10 @@ export default function SimpleSlider() {
   return (
       <Section>
           <div className='flex' >
+
+            
     <Slider {...settings}>
-      <div>
+      <div className="wrapper" >
         <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1606373140/1__Page_07_Image_0001_qpwt1l.jpg'} ></img>
       </div>
       <div>
@@ -34,10 +36,32 @@ export default function SimpleSlider() {
       <div>
       <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1606373140/1__Page_07_Image_0001_qpwt1l.jpg'} ></img>
       </div>
-
+     
    
     </Slider>
-   
+     
+    
+
+    <div className="data" >
+    
+    <div className='data-1' >
+
+      <h3>UPCOMING TOURS EVENTS</h3>
+      <h2>The Trip for the
+New Year</h2>
+
+<p>All accommodation, activities, in-
+country transport & select meals
+included on each trip!</p>
+
+<p></p>
+
+    </div>
+
+    
+</div>
+
+<button className='btn' >Explore Trips</button>
     </div>
     </Section>
   );

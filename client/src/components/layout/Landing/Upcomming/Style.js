@@ -12,12 +12,23 @@ export const  Section = styled.div`
     display:flex;
     justify-content:center; 
  .flex {
+
+  background-image:url('https://res.cloudinary.com/dzcmadjl1/image/upload/v1606406775/Road_trip_q221ul.png');
+   
+   background-position: center;
+              background-repeat: no-repeat;
    width:80rem;
+   height:40rem;
+   margin-top:5rem;
+   position: relative;
+   padding-bottom:3rem;
 
    .slick-slider {
     position: relative;
     display: block;
     width: 30rem;
+    height:35rem;
+    margin-top:3rem;
     margin-left: 50rem;
     box-sizing: border-box;
     -webkit-user-select: none;
@@ -29,7 +40,8 @@ export const  Section = styled.div`
     -webkit-tap-highlight-color: transparent;
 }
 img {
-  height: 30rem
+  height: 39rem;
+  width: 37rem;
 }
 .slick-dots {
     position: absolute;
@@ -40,58 +52,58 @@ img {
     margin: 0;
     list-style: none;
     text-align: center;
-    margin-left: -51rem;
-    margin-bottom: 5rem;
+    margin-left: -47rem;
+    margin-bottom: 3rem;
 }
 .slick-prev {
-    position: absolute;
-    font-size: 0;
+  font-size: 0;
     line-height: 0;
     position: absolute;
-    top: 71%;
+    top: 81%;
     display: block;
-    width: 32px;
-    height: 26px;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
     padding: 0;
-    transform: translate(0, -50%);
-    box-shadow: 5px 10px rgb( 249, 248, 246) ;
+    -webkit-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    box-shadow: 5px 10px rgb( 249,248,246);
     cursor: pointer;
-    color:#888888;;
+    color: #888888;
     border: none;
     outline: none;
     margin-top: 4rem;
     background: #888888;
-    
-    margin-left: -50rem;
+    margin-left: -48rem;
 }
  .slick-next {
-    font-size: 0;
+  font-size: 0;
     line-height: 0;
     position: absolute;
-    top: 84%;
+    top: 93%;
     display: block;
-    width: 32px;
-    height: 26px;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
     padding: 0;
-    transform: translate(0, -50%);
+    -webkit-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    transform: translate(0,-50%);
     cursor: pointer;
-    color:#888888;;
-   
-    box-shadow: 5px 10px rgb( 249, 248, 246) ;
+    color: #888888;
+    box-shadow: 5px 10px rgb( 249,248,246);
     outline: none;
     background: #888888;
     position: absolute;
-    margin-right: 54rem;
+    margin-right: 48rem;
 }
 
 .slick-dots li button {
     font-size: 0;
     line-height: 0;
     display: block;
-    width: 20px;
-    height: 20px;
+  
     padding: 5px;
     cursor: pointer;
     box-shadow: 5px 10px rgb( 249, 248, 246) ;
@@ -112,6 +124,54 @@ img {
     cursor: pointer;
 }
 
+ .wrapper {
+   width:30rem;
+   img {
+ width:100%;
+   }
+   
+ }
+
+ #lll {
+   position:absolute;
+   top:0;
+ }
+  
+  .data {
+    position: absolute;
+    width:40rem;
+    height:30rem;
+    top:0;
+
+  
+    .data-1 {
+      
+      border-bottom: 5px solid #667079;
+      width:100%;
+      height:100%;
+      display:flex;
+       justify-content:space-evenly;
+       flex-direction: column;
+       h3 {
+        font-size: 2rem;
+    font-weight: 1000
+       }
+       h2 {
+        font-size: 4rem;
+    font-weight: 1000
+       }
+       p{
+        font-size: 2rem;
+    line-height: 1.6;
+  font-family: Cour;
+       }
+    }
+  }
+   .btn {
+     bottom:0;
+   position:absolute;
+   right: 8rem
+  }
 
  }
 
