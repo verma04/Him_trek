@@ -17,7 +17,7 @@ justify-content:center;
 
 
   .flex {
-    background-image:url('https://res.cloudinary.com/dzcmadjl1/image/upload/v1606406807/camping_s8cc4n.png');
+    background-image:url('https://res.cloudinary.com/dzcmadjl1/image/upload/v1606406770/Yoga_c3re8n.png');
    
    background-position: center;
               background-repeat: no-repeat;
