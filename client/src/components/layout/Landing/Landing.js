@@ -58,7 +58,7 @@ you. Treat yourself and see our offers.
       
       <Explore/>
       <List/>
-      {/* <Upcomming/> */}
+      <Upcomming/>
 
       <Trips/>
       <Stories/>

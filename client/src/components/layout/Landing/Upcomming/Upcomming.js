@@ -1,52 +1,44 @@
-import React, { Component } from 'react'
-import { Slider } from './Style'
-import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+ 
+import { Section} from './Style'
+export default function SimpleSlider() {
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
+  return (
+      <Section>
+          <div className='flex' >
+    <Slider {...settings}>
+      <div>
+        <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1606373140/1__Page_07_Image_0001_qpwt1l.jpg'} ></img>
+      </div>
+      <div>
+      <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1606373140/1__Page_07_Image_0001_qpwt1l.jpg'} ></img>
+      </div>
+      <div>
+      <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1606373140/1__Page_07_Image_0001_qpwt1l.jpg'} ></img>
+      </div>
+      <div>
+      <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1606373140/1__Page_07_Image_0001_qpwt1l.jpg'} ></img>
+      </div>
+      <div>
+      <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1606373140/1__Page_07_Image_0001_qpwt1l.jpg'} ></img>
+      </div>
+      <div>
+      <img src={'https://res.cloudinary.com/dzcmadjl1/image/upload/v1606373140/1__Page_07_Image_0001_qpwt1l.jpg'} ></img>
+      </div>
 
-
-
-import { withRouter } from "react-router";
-
-import Img from 'react-cool-img';
- class Upcomming extends Component {
-    render() {
-        return (
-            <Slider>
-                <div    className="center" >
-              <Carousel   showThumbs={false} showStatus={false} useKeyboardArrows  autoPlay interval="2000">
-                  <div className="img-1">
-              <div className="img-wrapper" >
-                    <Img alt="sdd"       src={'https://res.cloudinary.com/pankaj-k-amakein-com/image/upload/v1605860885/3_ol4lxg.jpg'}/>
-                   
-
-                </div>
-              
-                </div>
-                <div className="img-1">
-                <div className="img-wrapper" >
-                    <Img alt="sdd"      src={'https://res.cloudinary.com/pankaj-k-amakein-com/image/upload/v1605860885/3_ol4lxg.jpg'}/>
-                   
-
-                </div>
-         
-                </div>
-              
-                <div className="img-1">
-              <div className="img-wrapper" >
-              <Img  alt="sdd"      src={'https://res.cloudinary.com/pankaj-k-amakein-com/image/upload/v1605860885/4_pvzixs.jpg'} />
-                  
-                   
-
-                </div>
-        
-                </div>
-                
-            </Carousel>
-            </div>
-            </Slider>
-        )
-    }
+   
+    </Slider>
+   
+    </div>
+    </Section>
+  );
 }
-
-
-export default withRouter(Upcomming)

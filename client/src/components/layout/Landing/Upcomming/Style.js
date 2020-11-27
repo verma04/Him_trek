@@ -2,124 +2,118 @@ import styled from 'styled-components'
 
 import { colors} from '../../../../theme/color';
 
-export const  Slider = styled.div`
-  display:flex;
-  justify-content:center;
-   margin-top:1rem;
-margin-bottom:1rem;
-  .center {
-    width:100%;
-    -webkit-box-shadow: 0 1rem 6px -6px grey;
-	   -moz-box-shadow: 0 1rem 6px -6px grey;
-	        box-shadow: 0 1rem 6px -6px grey;
-          .img-1 {
-             background-color:white; 
-            position: relative;
-    .img-wrapper {
 
-        width: 29rem;
-    margin-left: 51rem;
-      
-    img {
-      width:100%;
-  
-      
-    }
-   
-    
-   }
-   .hero-section {
-    top:1rem;
-      position:absolute;
-     
-   h2 {
-      
-      color:#4E372A;
-     
-      text-align:left;
-      margin-left:3rem;
-   
-      line-height:1.2;
-    }
-    button {
-     
-      background-color:white;
-      border:none;
-   
-      border-radius:10%;
-      margin-right:20rem;
-      margin-top:0.5rem;
-      padding: 0.5rem 1rem 0.5rem 1rem;
-      
-    
-    }
-          }
-          }
-     
-  }
+export const  Section = styled.div`
+
 
     
   @media (min-width: 1281px) {
-       
-    .center {
-      margin-top:2rem;
-      width:80rem;
-      -webkit-box-shadow: 0 1rem 6px -6px grey;
-	   -moz-box-shadow: 0 1rem 6px -6px grey;
-	        box-shadow: 0 1rem 6px -6px grey;
-          .img-1 {
-            position: relative;
-    .img-wrapper {
-      box-shadow: 0 3px 3px 0 rgba(0,0,0,0.2), 0 3px 3px 0 rgba(0,0,0,0.19);
-    img {
-      width:100%;
-      height: 25rem;
-    }
-   
-    
-   }
-   .hero-section {
-    top:3.5rem;
-      position:absolute;
-      width:30rem;
-   h2 {
-    width: 33rem;
-    color:#4E372A;
-      font-size:2rem;
-      text-align:left;
-      margin-left:6rem;
-      margin-top:3rem;
-      line-height:1.2;
-    }
-    button {
-      font-size:1.5rem;
-      background-color:white;
-      border:none;
-      align-items:left;
-      border-radius:10%;
-      margin-left: 6rem;
-      margin-right:20rem;
-      margin-top:1rem;
-      padding: 0.5rem 1rem 0.5rem 1rem;
-      
-    }
-          }
-          }
-  }
 
-  .carousel .control-dots .dot {
-    transition: opacity .25s ease-in;
-    opacity: .3;
-    filter: alpha(opacity=30);
-    box-shadow: 1px 1px 2px rgba(0,0,0,0.9);
-    background: #fff;
-    border-radius: 50%;
-    width: 2rem;
-    height: 2rem;
-    cursor: pointer;
-    display: inline-block;
-    margin: 0 8px;
+    display:flex;
+    justify-content:center; 
+ .flex {
+   width:80rem;
+
+   .slick-slider {
+    position: relative;
+    display: block;
+    width: 30rem;
+    margin-left: 50rem;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
 }
+img {
+  height: 30rem
+}
+.slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    margin-left: -51rem;
+    margin-bottom: 5rem;
+}
+.slick-prev {
+    position: absolute;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 71%;
+    display: block;
+    width: 32px;
+    height: 26px;
+    border-radius: 50%;
+    padding: 0;
+    transform: translate(0, -50%);
+    box-shadow: 5px 10px rgb( 249, 248, 246) ;
+    cursor: pointer;
+    color:#888888;;
+    border: none;
+    outline: none;
+    margin-top: 4rem;
+    background: #888888;
+    
+    margin-left: -50rem;
+}
+ .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 84%;
+    display: block;
+    width: 32px;
+    height: 26px;
+    border-radius: 50%;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color:#888888;;
+   
+    box-shadow: 5px 10px rgb( 249, 248, 246) ;
+    outline: none;
+    background: #888888;
+    position: absolute;
+    margin-right: 54rem;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: 5px 10px rgb( 249, 248, 246) ;
+    border: 0;
+    outline: none;
+   
+    background: #888888;
+    color: #888888
+}
+
+.slick-dots li {
+  
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+
+ }
 
   
   }
