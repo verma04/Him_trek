@@ -59,7 +59,7 @@ img {
   font-size: 0;
     line-height: 0;
     position: absolute;
-    top: 81%;
+    top: 83%;
     display: block;
     width: 3rem;
     height: 3rem;
@@ -81,7 +81,7 @@ img {
   font-size: 0;
     line-height: 0;
     position: absolute;
-    top: 93%;
+    top: 95%;
     display: block;
     width: 3rem;
     height: 3rem;
@@ -109,9 +109,11 @@ img {
     box-shadow: 5px 10px rgb( 249, 248, 246) ;
     border: 0;
     outline: none;
-   
+    width: 2rem;
+    height: 2rem;
+    border-radius:50%;
     background: #888888;
-    color: #888888
+    color: #888888;
 }
 
 .slick-dots li {
@@ -124,6 +126,37 @@ img {
     cursor: pointer;
 }
 
+.slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '';
+    text-align: center;
+
+    opacity: .25;
+      color: red;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+     background-color: rgb(241 ,166 ,51);
+     width:2rem;
+     height:2rem;
+     border-radius:50%
+}
  .wrapper {
    width:30rem;
    img {
