@@ -43,7 +43,41 @@ padding-bottom:3rem;
        width:80rem;
        margin-top:2rem;
        height:40rem;
-        border: 1px solid red;
+      
+        display:grid;
+        grid-template-columns:  23% 23% 23% 23%;
+        grid-gap:1rem;
+        padding-top: 5rem;
+    padding-left: 10rem;
+        .img {
+           img {
+            width: 10rem;
+            display:flex;
+          justify-content:center;
+          flex-direction: column;
+      
+           }
+           h3 {
+            font-size: 2rem;
+    padding-top: 2rem;
+           }
+          #set {
+              padding-left:2rem;
+          }
+          .road {
+              color:rgb(188 186 187);
+          }
+          .medi {
+           color: rgb(186 ,179 ,173)
+          }
+          .adv {
+          color : rgb(166, 166 166)
+          }
+          .trek {
+              color: rgb(206 ,165 ,163)
+          }
+        
+        }
           }
 
         }

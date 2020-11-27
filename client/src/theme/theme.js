@@ -96,6 +96,7 @@ button {
   h3 {
     font-size: 1.2rem;
     line-height: var(--line-height-lg);
+    color:${colors.primary.grey};
   }
 
 

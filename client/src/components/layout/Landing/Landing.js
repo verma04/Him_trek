@@ -4,6 +4,7 @@ import Explore from './Explore/Expore'
 import  Upcomming from './Upcomming/Upcomming'
 import { Section }  from './Style'
 import Trips from './Trips/Trips';
+import Footer from './Footer/Footer'
 
 import List from './List/List'
 
@@ -61,6 +62,7 @@ you. Treat yourself and see our offers.
       <Trips/>
       <Stories/>
       <Acc/>
+      <Footer/>
       </React.Fragment>
     );
   }
