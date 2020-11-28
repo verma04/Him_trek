@@ -16,6 +16,12 @@ padding-bottom:3rem;
 }
 @media (min-width: 1281px) {
 
+  background-image:url('https://res.cloudinary.com/dzcmadjl1/image/upload/v1606535935/2_kbstak.png') , url('https://res.cloudinary.com/dzcmadjl1/image/upload/v1606535935/3_owavlx.png') ;
+   
+   background-position: left bottom , right bottom;
+              background-repeat: no-repeat , no-repeat;
+              background-size: 10rem , 20rem;
+
   .flex {
       width:80rem;
     

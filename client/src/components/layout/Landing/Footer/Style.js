@@ -14,6 +14,13 @@ padding-bottom:3rem;
   
 }
 @media (min-width: 1281px) {
+
+    background-image:url('https://res.cloudinary.com/dzcmadjl1/image/upload/v1606535934/8_c5gkem.png') , url('https://res.cloudinary.com/dzcmadjl1/image/upload/v1606535934/7_yq3vg3.png') ;
+   
+   background-position: left bottom , right bottom;
+              background-repeat: no-repeat , no-repeat;
+              background-size: 10rem , 10rem;
+        
 margin-top:5rem;
 height:50rem;
   .flex {

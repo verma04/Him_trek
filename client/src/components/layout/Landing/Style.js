@@ -13,11 +13,16 @@ justify-content:center;
 }
 @media (min-width: 1281px) {
 
+  background-image:url('https://res.cloudinary.com/dzcmadjl1/image/upload/v1606535934/8_c5gkem.png') ;
+   
+   background-position: left bottom;
+              background-repeat: no-repeat;
+              background-size: 10rem;;
   
 
 
   .flex {
-    background-image:url('https://res.cloudinary.com/dzcmadjl1/image/upload/v1606406770/Yoga_c3re8n.png');
+    background-image:url('https://res.cloudinary.com/dzcmadjl1/image/upload/v1606406770/Yoga_c3re8n.png') ;
    
    background-position: center;
               background-repeat: no-repeat;
