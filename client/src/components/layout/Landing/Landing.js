@@ -8,7 +8,7 @@ import Footer from './Footer/Footer'
 import Pic from './pictures/pictures'
 
 import List from './List/List'
-
+import Review from './review/review'
 import Stories from './Stories/Stories'
 import Acc from './Accomo/acoomo'
 
@@ -61,6 +61,7 @@ you. Treat yourself and see our offers.
       <Upcomming/>
 
       <Trips/>
+      <Review/>
       <Stories/>
       <Pic/>
       <Acc/>
